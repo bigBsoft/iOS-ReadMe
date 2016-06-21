@@ -1,6 +1,6 @@
-#<Project Name>
+#Project Name
 ===========================
-<Project> is an iOS app
+Project is an iOS app
 
 ##Swift Style Guide
 
@@ -12,16 +12,19 @@ Lint are used before sending pull request. [SwiftLint][SL] autocorrect is used a
 Thrid party framewoks and Library are managed using Cocoapods.
 
 ### Pods used 
+	- pod 'SwiftyJSON'
+	- pod 'Alamofire'
 
 ### Carthage used
 
-github "SwiftyJSON/SwiftyJSON"
-github "Alamofire/Alamofire"
+	- github "SwiftyJSON/SwiftyJSON"
+	- github "Alamofire/Alamofire"
 
 ###Version Management
 
-Build Number willl increased for each iTunes submission
-each version will have build no starting frmo 1000
+* Build Number willl increased for each iTunes submission
+* App version will only increase on app submiting to App Store
+* Each version will have build no starting from 1000
 
 ##Folder Structure and Architecture
 
